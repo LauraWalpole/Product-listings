@@ -13,35 +13,289 @@ era_map = {
 
 #Mapping for Pokémon TCG expansions
 expansion_map = {
-    "swsh1": "Base",
-    "swsh2": "Rebel Clash",
-    "swsh3": "Darkness Ablaze",
-    "swsh3.5": "Champions Path",
-    "swsh4": "Vivid Voltage",
-    "swsh4.5": "Shining Fates",
-    "swsh5": "Battle Styles",
-    "swsh6": "Chilling Reign",
-    "swsh7": "Evolving Skies",
-    "swsh7.5": "Celebrations",
-    "swsh8": "Fusion Strike",
-    "swsh9": "Brilliant Stars",
-    "sswsh10": "Astral Radiance",
-    "swsh10.5": "Pokémon Go",
-    "swsh11": "Silver Tempest",
-    "swsh12": "Lost Origin",
-    "swsh12.5": "Crown Zenith",
-    "sv1": "Base",
-    "sv2": "Paldea Evolved",
-    "sv3": "Obsidian Flames",
-    "sv3.5": "151",
-    "sv4": "Paradox Rift",
-    "sv4.5": "Paldean Fates",
-    "sv5": "Temporal Forces",
-    "sv6": "Twilight Masquerade",
-    "sv6.5": "Shrouded Fable",
-    "sv7": "Stellar Crown",
-    "sv8": "Surging Sparks",
-    "sv8.5": "Prismatic Evolutions"
+    
+    "swsh1": {
+        "name": "Base",
+        "release_day":"07",
+        "release_month":"02",
+        "release_year": "2020",
+        "rrp_etb":"",
+        "rrp_boosterbox":"",
+        "rrp_blister":"",
+
+    },
+    "swsh2": {
+        "name":"Rebel Clash",
+        "release_day":"01",
+        "release_month":"05",
+        "release_year": "2020",
+        "rrp_etb":"",
+        "rrp_boosterbox":"",
+        "rrp_blister":"",
+    },
+    "swsh3": {
+        "name":"Darkness Ablaze",
+        "release_day":"14",
+        "release_month":"08",
+        "release_year": "2020",
+        "rrp_etb":"",
+        "rrp_boosterbox":"",
+        "rrp_blister":"",
+
+    },
+    "swsh3.5": {
+        "name":"Champions Path",
+        "release_day":"25",
+        "release_month":"09",
+        "release_year": "2020",
+        "rrp_etb":"",
+        "rrp_boosterbox":"",
+        "rrp_blister":"",
+        } ,
+    "swsh4": {
+        "name":"Vivid Voltage",
+        "release_day":"13",
+        "release_month":"11",
+        "release_year": "2020",
+        "rrp_etb":"",
+        "rrp_boosterbox":"",
+        "rrp_blister":"",
+        },
+    "swsh4.5": {
+        "name":"Shining Fates",
+        "release_day":"19",
+        "release_month":"02",
+        "release_year": "2021",
+        "rrp_etb":"",
+        "rrp_boosterbox":"",
+        "rrp_blister":""
+    },
+    "swsh5": {
+        "name":"Battle Styles",
+        "release_day":"19",
+        "release_month":"03",
+        "release_year": "2021",
+        "rrp_etb":"",
+        "rrp_boosterbox":"",
+        "rrp_blister":"",
+    },
+    "swsh6": {
+        "name":"Chilling Reign",
+        "release_day":"18",
+        "release_month":"06",
+        "release_year": "21",
+        "rrp_etb":"",
+        "rrp_boosterbox":"",
+        "rrp_blister":"",
+        
+    },
+    "swsh7": {
+        "name":"Evolving Skies",
+        "release_day":"27",
+        "release_month":"08",
+        "release_year": "21",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    }
+    ,
+    "swsh7.5": {
+        "name":"Celebrations",
+        "release_day":"08",
+        "release_month":"10",
+        "release_year": "21",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+    },
+    "swsh8": {
+        "name":"Fusion Strike",
+        "release_day":"12",
+        "release_month":"11",
+        "release_year": "21",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    },
+    "swsh9": {
+        "name":"Brilliant Stars",
+        "release_day":"25",
+        "release_month":"02",
+        "release_year": "2022",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    },
+    "swsh10": {
+        "name":"Astral Radiance",
+        "release_day":"27",
+        "release_month":"05",
+        "release_year": "2022",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    },
+    "swsh10.5": {
+        "name":"Pokémon Go",
+        "release_day":"01",
+        "release_month":"07",
+        "release_year": "2023",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    },
+    "swsh11": {
+        "name":"Lost Origin",
+        "release_day":"09",
+        "release_month":"09",
+        "release_year": "2022",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    },
+    "swsh12": {
+        "release_day":"11",
+        "release_month":"11",
+        "release_year": "2022",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    },
+    "swsh12.5": {
+        "name":"Crown Zenith",
+        "release_day":"20",
+        "release_month":"01",
+        "release_year": "2023",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    },
+    "sv1": {
+        "name":"Base",
+        "release_day":"31",
+        "release_month":"03",
+        "release_year":"2023",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+    } ,
+    "sv2": {
+        "name":"Paldea Evolved",
+        "release_day":"09",
+        "release_month":"06",
+        "release_year": "2023",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    },
+    "sv3": {
+        "name":"Obsidian Flames",
+        "release_day":"11",
+        "release_month":"08",
+        "release_year": "23",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    },
+    "sv3.5": {
+        "name":"151",
+        "release_day":"22",
+        "release_month":"09",
+        "release_year": "2023",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    },
+    "sv4": {
+        "name":"Paradox Rift",
+        "release_day":"03",
+        "release_month":"11",
+        "release_year": "2023",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    },
+    "sv4.5": {
+        "name":"Paldean Fates",
+        "release_day":"26",
+        "release_month":"01",
+        "release_year":"2024",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    },
+    "sv5": {
+        "name":"Temporal Forces",
+        "release_day":"22",
+        "release_month":"03",
+        "release_year": "2024",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    },
+    "sv6": {
+        "name":"Twilight Masquerade",
+        "release_day":"24",
+        "release_month":"05",
+        "release_year": "2024",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    },
+    "sv6.5": {
+        "name":"Shrouded Fable",
+        "release_day":"02",
+        "release_month":"08",
+        "release_year":"2024",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+    },
+    "sv7": {
+        "name":"Stellar Crown",
+        "release_day":"13",
+        "release_month":"09",
+        "release_year":"2024",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+    },
+    "sv8": {
+        "name":"Surging Sparks",
+        "release_day":"09",
+        "release_month":"11",
+        "release_year": "2024",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    },
+    "sv8.5": {
+        "name":"Prismatic Evolutions",
+        "release_day":"17",
+        "release_month":"01",
+        "release_year":"2025",
+        "rrp_etb":,
+        "rrp_boosterbox":,
+        "rrp_blister":,
+
+    }
+
 }
 
 #Elite Trainer Box promo card map
@@ -62,7 +316,7 @@ promo_map_etb = {
 
 #3 pack blister promo card map
 
-promo_map_3pack = {
+promo_map_blister = {
     "sv1": ("Arcanine", "Dondozo"),
     "sv2": ("Varoom", "Tinkatink"),
     "sv3": ("Houndstone", "Eevee"),
@@ -80,8 +334,13 @@ product_era = era_map[product_era_abbr]
 #Determine full expansion name from expansion abbreviation
 product_expansion = expansion_map[tcg_expansion_abbr]
 
+#Determine release date from expansion abbreviation
+
 #Determine promo card name from expansion abbreviation
-etb_promo = expansion_map
+etb_promo = promo_map_etb[tcg_expansion_abbr]
+
+#Determine blister pack promo cards from expansion abbreviation
+blister_promo = promo_map_blister[tcg_expansion_abbr]
 
 
 
