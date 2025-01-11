@@ -5,11 +5,13 @@ era_map = {
     "2": "Sword & Shield",
     }
 
+#Map for Pokémon TCG Expansions
 expansion_type_map = {
     "1": "Core Expansion",
     "2": "Special Set",
 }
 
+#Map for Pokémon TCG products 
 product_map = {
     "Core Expansion": [
         "Elite Trainer Box",
@@ -27,6 +29,7 @@ product_map = {
     ]
 }
 
+#Map for Pokémon TCG expansions
 expansion_map = {
     "swsh1": {
         "name": "Base",
@@ -470,6 +473,146 @@ expansion_map = {
     }
 }
 
+#Map for Pokémon TCG product templates
+product_templates = {
+    #Sword & Shield era product list
+    "Sword & Shield": {
+        #Sword & Shield core expansion product templates
+        "Core Expansion": {
+            "Elite Trainer Box": """
+                <h2>{tagline}</h2>
+                <h3>RRP: {etb_rrp}</h3>
+                <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
+                <h2>What's inside?</h2>
+                <p>Each {era} {name} Elite Trainer Box contains:</p>
+                <ul>
+                    <li>8 Pokémon TCG: {era} {name} booster packs</li>
+                    <li>A promo card featuring {etb_promo_pokemon}</li>
+                    <li>65 card sleeves featuring {etb_card_sleeves}</li>
+                    <li>45 Pokémon TCG Energy cards</li>
+                    <li>A player’s guide to the {era}: {expansion} expansion</li>
+                    <li>6 damage-counter dice</li>
+                    <li>1 competition-legal coin-flip die</li>
+                    <li>2 plastic condition markers</li>
+                    <li>A collector’s box to hold everything, with 4 dividers to keep it organised</li>
+                    <li>A code card for Pokémon Trading Card Game Live</li>
+                </ul>
+            """,
+            "Booster Box": """
+                <h2>{tagline}</h2>
+                <h3>RRP: {booster_box_rrp}</h3>
+                <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
+                <h2>What's inside?</h2> 
+                <p>Each Booster Box contains 36 Pokémon TCG {era} {expansion} booster packs</p> 
+            """,
+            "3 Pack Blister": """
+                <h2>{tagline}</h2>
+                <h3>RRP: {3_pack_rrp}</h3>
+                <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
+                <h2>Contents</h2>
+                <p> Each set contains:
+                <ul>
+                    <li>3 {era} {era} booster packs.</li>
+                    <li>A foil promo card featuring {3_pack_promo_card}</li>
+                    <li>A code card for Pokémon TCG Live</li>
+                </ul>
+                </p>
+            """
+
+        },
 
 
 
+            
+        "Special Set": {
+            # Sword & Shield special set product templates
+            "Elite Trainer Box": """
+                    <h2>{tagline}</h2>
+                    <h3>RRP: {etb_rrp}</h3>
+                    <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
+                    <h2>What's included?</h2>
+                    <p>Each {era} {expansion} Elite Trainer Box contains:</p>
+                    <ul>               
+                        <li>10 Pokémon TCG: {era} {expansion} booster packs</li>
+                        <li>A promo card featuring {etb_promo_card}</li>
+                        <li>65 card sleeves featuring {etb_card_sleeves}</li>
+                        <li>45 Pokémon TCG Energy cards</li>
+                        <li>A player’s guide to the {era}: {expansion} expansion</li>
+                        <li>6 damage-counter dice</li>
+                        <li>1 competition-legal coin-flip die</li>
+                        <li>2 acrylic condition markers</li>
+                        <li>A collector’s box to hold everything, with 4 dividers to keep it organised</li>
+                        <li>A code card for Pokémon TCG Live</li>
+                    </ul>
+                """
+        }
+    },
+    "Scarlet & Violet": {
+        #Scarlet & Violet core expansion product templates
+        "Core Expansion": {
+            "Elite Trainer Box": """
+                <h2>{tagline}</h2>
+                <h3>RRP: {etb_rrp}</h3>
+                <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
+                <h2>What's included?</h2>
+                <p>Each {era} {expansion} Elite Trainer Box contains:</p>
+                <ul>               
+                    <li>9 Pokémon TCG: {era} {expansion} booster packs</li>
+                    <li>A promo card featuring {etb_promo_card}</li>
+                    <li>65 card sleeves featuring {etb_card_sleeves}</li>
+                    <li>45 Pokémon TCG Energy cards</li>
+                    <li>A player’s guide to the {era}: {expansion} expansion</li>
+                    <li>6 damage-counter dice</li>
+                    <li>1 competition-legal coin-flip die</li>
+                    <li>2 acrylic condition markers</li>
+                    <li>A collector’s box to hold everything, with 4 dividers to keep it organised</li>
+                    <li>A code card for Pokémon TCG Live</li>
+                </ul>
+            """,
+            "Booster Box": """
+                <h2>{tagline}</h2>
+                <h3>RRP: {booster_box_rrp}</h3>
+                <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
+                <h2>What's inside?</h2> 
+                <p>Each Booster Box contains 36 Pokémon TCG {era} {expansion} booster packs</p> 
+            """,
+            "3 Pack Blister": """
+                <h2>{tagline}</h2>
+                <h3>RRP: {3_pack_rrp}</h3>
+                <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
+                <h2>Contents</h2>
+                <p> Each set contains:
+                <ul>
+                    <li>3 {era} {era} booster packs.</li>
+                    <li>A foil promo card featuring {3_pack_promo_card}</li>
+                    <li>A code card for Pokémon TCG Live</li>
+                </ul>
+                </p>
+            """
+        },
+        "Special Set": {
+            # Scarlet & Violet special set product templates
+                "Elite Trainer Box": """
+                    <h2>{tagline}</h2>
+                    <h3>RRP: {etb_rrp}</h3>
+                    <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
+                    <h2>What's included?</h2>
+                    <p>Each {era} {expansion} Elite Trainer Box contains:</p>
+                    <ul>               
+                        <li>9 Pokémon TCG: {era} {expansion} booster packs</li>
+                        <li>A promo card featuring {etb_promo_card}</li>
+                        <li>65 card sleeves featuring {etb_card_sleeves}</li>
+                        <li>45 Pokémon TCG Energy cards</li>
+                        <li>A player’s guide to the {era}: {expansion} expansion</li>
+                        <li>6 damage-counter dice</li>
+                        <li>1 competition-legal coin-flip die</li>
+                        <li>2 acrylic condition markers</li>
+                        <li>A collector’s box to hold everything, with 4 dividers to keep it organised</li>
+                        <li>A code card for Pokémon TCG Live</li>
+                    </ul>
+                """
+        }
+    }
+
+}
+    

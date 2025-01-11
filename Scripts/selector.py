@@ -40,7 +40,7 @@ def select_product(expansion_type):
           print("Invalid product selection.")
           return None
 
-
+#Select the Pokémon TCG expansion
 def select_expansion(era, expansion_type):
      #Filter expansions by era and expansion type
      expansion_options = [
@@ -69,25 +69,43 @@ def select_expansion(era, expansion_type):
           return None
 
 
-def generate_product_description(product, expansion):
-    # Retrieve expansion details
-    expansion_details = config.expansion_map.get(expansion)
-    if not expansion_details:
-        print("Invalid expansion data.")
-        return None
-
-    # Retrieve product name and expansion name
-    product_name = product
-    expansion_name = expansion_details["name"]
-
-    # Generate description
-    description = (
-        f"{product_name} from the {expansion_name} expansion!\n"
-        f"Experience the excitement of the {expansion_details['era']} era with {expansion_name}, "
-        f"released on {expansion_details['release_day']}-{expansion_details['release_month']}-{expansion_details['release_year']}."
-    )
-
-    return description
+#Retreive the product description template
+def get_product_description(era, expansion_type, product):
+     try:
+          #Access nested dictionary and find template matching the era, expansion type and product values
+          template = config.product_templates[era][expansion_type][product]
+          return template
+     except KeyError:
+          return "No template found for era: {era}, type: {expansion_type}, product: {product}"
+     
+#Generate a product description
+def generate_product_description(era, expansion_type, product, expansion):
+     #Retreive the expansion details
+     expansion_details = config.expansion_map.get(expansion)
+     if not expansion_details:
+          return "Invalid expansion key. Unable to generate description."
+     
+     #Get the product descriptioin template
+     template = get_product_description(era, expansion_type, product)
+     if "No template found" in template:
+          return template
+     
+     #Format the template using the expansion data
+     description = template.format(
+          era=expansion_details["era"],
+          expansion=expansion_details["name"],
+          tagline=expansion_details["tag_line"],
+          release_day=expansion_details["release_day"],
+          release_month=expansion_details["release_month"],
+          release_year=expansion_details["release_year"],
+          etb_promo_card=expansion_details.get("etb_promo_card"),
+          etb_card_sleeves=expansion_details.get("etb_card_sleeves"),
+          etb_rrp=expansion_details["etb_rrp"],
+          blister_promo_card=expansion_details["3_pack_promo_card"],
+          blister_rrp=expansion_details["3_pack_rrp"],
+          booster_box_rrp=expansion_details["booster_box_rrp"]
+     )
+     return description
 
 
 def main():
@@ -112,7 +130,8 @@ def main():
         print(expansion)
         if not expansion:
              print("Invalid expansion")
-        description = generate_product_description (product, expansion)
+        
+        description = generate_product_description (era, expansion_type, product, expansion)
         if description:
           print("\nGenerated Product Description: ")
           print(description)
