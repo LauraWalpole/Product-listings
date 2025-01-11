@@ -481,7 +481,23 @@ expansion_map = {
         "etb_quantity_of_packs": "9",
         "blister_rrp": "",
         "booster_box_rrp": "",
-        "booster_box_rrp":""
+
+    },
+    "sv9": {
+        "name":"Journey Together",
+        "era": "Scarlet & Violet",
+        "type": "Core Expansion",
+        "tag_line":"Trainer’s Pokémon Break into Battle!",
+        "release_day":"28",
+        "release_month":"03",
+        "release_year":"2025",
+        "etb_promo_card": "N’s Zorua",
+        "etb_card_sleeves": "Zoruark",
+        "etb_rrp": "£49.99",
+        "etb_quantity_of_packs": "9",
+        "blister_rrp": "13.99",
+        "booster_box_rrp": "£154.44",
+
     }
 }
 
