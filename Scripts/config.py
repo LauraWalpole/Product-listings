@@ -42,8 +42,8 @@ expansion_map = {
         "etb_card_sleeves": "Zacian or Zamazenta",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "8",
-        "3_pack_promo_card": "",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
     },
     "swsh2": {
@@ -57,8 +57,8 @@ expansion_map = {
         "etb_card_sleeves": "Copperajah",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "8",
-        "3_pack_promo_card": "",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
     },
     "swsh3": {
@@ -72,8 +72,8 @@ expansion_map = {
         "etb_card_sleeves": "Eternatus",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "8",
-        "3_pack_promo_card": "",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
     },
     "swsh3.5": {
@@ -88,8 +88,8 @@ expansion_map = {
         "etb_card_sleeves": "Gigantamax Charizard",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "10",
-        "3_pack_promo_card": "",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
         } ,
     "swsh4": {
@@ -103,8 +103,8 @@ expansion_map = {
         "etb_card_sleeves": "Gigantamax Pikachu",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "8",
-        "3_pack_promo_card": "",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
         },
     "swsh4.5": {
@@ -119,8 +119,8 @@ expansion_map = {
         "etb_card_sleeves": "Gigantamax Eevee",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "10",
-        "3_pack_promo_card": "",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
     },
     "swsh5": {
@@ -134,8 +134,8 @@ expansion_map = {
         "etb_card_sleeves": "Gigantamax Single Strike Urshifu or Gigantamax Rapid Strike Urshifu",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "8",
-        "3_pack_promo_card": "",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
     },
     "swsh6": {
@@ -149,8 +149,8 @@ expansion_map = {
         "etb_card_sleeves": "Ice Rider Calyrex or Shadow Rider Calyrex",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "8",
-        "3_pack_promo_card": "",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
     },
     "swsh7": {
@@ -164,8 +164,8 @@ expansion_map = {
         "etb_card_sleeves": "",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "8",
-        "3_pack_promo_card": "",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
     },
     "swsh7.5": {
@@ -180,8 +180,8 @@ expansion_map = {
         "etb_card_sleeves": "the Pokémon 25 logo and lightning tail design",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "10",
-        "3_pack_promo_card": "",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
     },
     "swsh8": {
@@ -195,8 +195,8 @@ expansion_map = {
         "etb_card_sleeves": "Mew",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "8",
-        "3_pack_promo_card": "",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
     },
     "swsh9": {
@@ -210,8 +210,8 @@ expansion_map = {
         "etb_card_sleeves": "Arceus",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "8",
-        "3_pack_promo_card": "",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
     },
     "swsh10": {
@@ -225,8 +225,8 @@ expansion_map = {
         "etb_card_sleeves": "",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "8",
-        "3_pack_promo_card": "Darkrai",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "Darkrai",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
     },
     "swsh10.5": {
@@ -251,8 +251,8 @@ expansion_map = {
         "etb_card_sleeves": "Giratina",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "8",
-        "3_pack_promo_card": "",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
     },
     "swsh12": {
@@ -266,8 +266,8 @@ expansion_map = {
         "etb_card_sleeves": "Alolan Vulpix",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "8",
-        "3_pack_promo_card": "",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
     },
     "swsh12.5": {
@@ -282,8 +282,8 @@ expansion_map = {
         "etb_card_sleeves": "Lucario",
         "etb_rrp": "42.50",
         "etb_quantity_of_packs": "10",
-        "3_pack_promo_card": "",
-        "3_pack_rrp": "13.50",
+        "blister_promo_card": "",
+        "blister_rrp": "13.50",
         "booster_box_rrp": "143.64"
     },
     "sv1": {
@@ -298,8 +298,8 @@ expansion_map = {
         "etb_card_sleeves": "Koraidon or Miraidon",
         "etb_rrp": "£49.99",
         "etb_quantity_of_packs": "9",
-        "3_pack_promo_card": "Arcanine or Dondozo",
-        "3_pack_rrp": "13.99",
+        "blister_promo_card": "Arcanine or Dondozo",
+        "blister_rrp": "13.99",
         "booster_box_rrp": "154.44"
 
 
@@ -316,8 +316,8 @@ expansion_map = {
         "etb_card_sleeves": "Sprigatito, Fuecoco, and Quaxly",
         "etb_rrp": "£49.99",
         "etb_quantity_of_packs": "9",
-        "3_pack_promo_card": "Varoom or Tinkatink",
-        "3_pack_rrp": "13.99",
+        "blister_promo_card": "Varoom or Tinkatink",
+        "blister_rrp": "13.99",
         "booster_box_rrp": "154.44"
     },
     "sv3": {
@@ -332,8 +332,8 @@ expansion_map = {
         "etb_card_sleeves": "Charmander",
         "etb_rrp": "£49.99",
         "etb_quantity_of_packs": "9",
-        "3_pack_promo_card": "Houndstone or Eevee",
-        "3_pack_rrp": "13.99",
+        "blister_promo_card": "Houndstone or Eevee",
+        "blister_rrp": "13.99",
         "booster_box_rrp": "154.44"
     },
     "sv3.5": {
@@ -348,6 +348,9 @@ expansion_map = {
         "etb_card_sleeves": "a pattern showcasing Pokémon silhouettes from the Kanto region",
         "etb_rrp": "£49.99",
         "etb_quantity_of_packs": "9",
+        "blister_promo_card": "",
+        "blister_rrp": "",
+        "booster_box_rrp": ""
 
     },
     "sv4": {
@@ -362,8 +365,8 @@ expansion_map = {
         "etb_card_sleeves": "Iron Valiant or Roaring Moon",
         "etb_rrp": "£49.99",
         "etb_quantity_of_packs": "9",
-        "3_pack_promo_card": "Cetitan or Arctibax",
-        "3_pack_rrp": "13.99",
+        "blister_promo_card": "Cetitan or Arctibax",
+        "blister_rrp": "13.99",
         "booster_box_rrp": "154.44"
     },
     "sv4.5": {
@@ -378,6 +381,9 @@ expansion_map = {
         "etb_card_sleeves": "Mimikyu",
         "etb_rrp": "£49.99",
         "etb_quantity_of_packs": "9",
+        "blister_rrp": "",
+        "booster_box_rrp": "",
+        "booster_box_rrp":""
 
     },
     "sv5": {
@@ -392,8 +398,8 @@ expansion_map = {
         "etb_card_sleeves": "Iron Leaves or Walking Wake",
         "etb_rrp": "£49.99",
         "etb_quantity_of_packs": "9",
-        "3_pack_promo_card": "Cyclizar or Cleffa",
-        "3_pack_rrp": "13.99",
+        "blister_promo_card": "Cyclizar or Cleffa",
+        "blister_rrp": "13.99",
         "booster_box_rrp": "154.44"
 
     },
@@ -409,8 +415,8 @@ expansion_map = {
         "etb_card_sleeves": "Ogerpon",
         "etb_rrp": "£49.99",
         "etb_quantity_of_packs": "9",
-        "3_pack_promo_card": "Revaroom or Snorlax",
-        "3_pack_rrp": "13.99",
+        "blister_promo_card": "Revaroom or Snorlax",
+        "blister_rrp": "13.99",
         "booster_box_rrp": "154.44"
     },
     "sv6.5": {
@@ -424,7 +430,10 @@ expansion_map = {
         "etb_promo_card": "Pecharunt",
         "etb_card_sleeves": "Okidogi, Munkidori, and Fezandipiti",
         "etb_rrp": "£49.99",
-        "etb_quantity_of_packs": "9"
+        "etb_quantity_of_packs": "9",
+        "blister_rrp": "",
+        "booster_box_rrp": "",
+        "booster_box_rrp":""
     },
     "sv7": {
         "name":"Stellar Crown",
@@ -438,8 +447,8 @@ expansion_map = {
         "etb_card_sleeves": "Stellar Form Terapagos",
         "etb_rrp": "£49.99",
         "etb_quantity_of_packs": "9",
-        "3_pack_promo_card": "Tinkaton or Latias",
-        "3_pack_rrp": "13.99",
+        "blister_promo_card": "Tinkaton or Latias",
+        "blister_rrp": "13.99",
         "booster_box_rrp": "154.44"
     },
     "sv8": {
@@ -454,8 +463,8 @@ expansion_map = {
         "etb_card_sleeves": "Pikachu",
         "etb_rrp": "£49.99",
         "etb_quantity_of_packs": "9",
-        "3_pack_promo_card": "Zapdos or Quagsire",
-        "3_pack_rrp": "13.99",
+        "blister_promo_card": "Zapdos or Quagsire",
+        "blister_rrp": "13.99",
         "booster_box_rrp": "154.44"
     },
     "sv8.5": {
@@ -469,7 +478,10 @@ expansion_map = {
         "etb_promo_card": "Eevee",
         "etb_card_sleeves": "Eevee",
         "etb_rrp": "£49.99",
-        "etb_quantity_of_packs": "9"
+        "etb_quantity_of_packs": "9",
+        "blister_rrp": "",
+        "booster_box_rrp": "",
+        "booster_box_rrp":""
     }
 }
 
@@ -507,13 +519,13 @@ product_templates = {
             """,
             "3 Pack Blister": """
                 <h2>{tagline}</h2>
-                <h3>RRP: {3_pack_rrp}</h3>
+                <h3>RRP: {blister_rrp}</h3>
                 <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
                 <h2>Contents</h2>
                 <p> Each set contains:
                 <ul>
                     <li>3 {era} {era} booster packs.</li>
-                    <li>A foil promo card featuring {3_pack_promo_card}</li>
+                    <li>A foil promo card featuring {blister_promo_card}</li>
                     <li>A code card for Pokémon TCG Live</li>
                 </ul>
                 </p>
@@ -576,15 +588,15 @@ product_templates = {
                 <h2>What's inside?</h2> 
                 <p>Each Booster Box contains 36 Pokémon TCG {era} {expansion} booster packs</p> 
             """,
-            "3 Pack Blister": """
+            "3-pack Blister": """
                 <h2>{tagline}</h2>
-                <h3>RRP: {3_pack_rrp}</h3>
+                <h3>RRP: {blister_rrp}</h3>
                 <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
                 <h2>Contents</h2>
                 <p> Each set contains:
                 <ul>
                     <li>3 {era} {era} booster packs.</li>
-                    <li>A foil promo card featuring {3_pack_promo_card}</li>
+                    <li>A foil promo card featuring {blister_promo_card}</li>
                     <li>A code card for Pokémon TCG Live</li>
                 </ul>
                 </p>

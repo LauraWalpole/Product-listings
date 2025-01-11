@@ -101,8 +101,8 @@ def generate_product_description(era, expansion_type, product, expansion):
           etb_promo_card=expansion_details.get("etb_promo_card"),
           etb_card_sleeves=expansion_details.get("etb_card_sleeves"),
           etb_rrp=expansion_details["etb_rrp"],
-          blister_promo_card=expansion_details["3_pack_promo_card"],
-          blister_rrp=expansion_details["3_pack_rrp"],
+          blister_promo_card=expansion_details["blister_promo_card"],
+          blister_rrp=expansion_details["blister_rrp"],
           booster_box_rrp=expansion_details["booster_box_rrp"]
      )
      return description
