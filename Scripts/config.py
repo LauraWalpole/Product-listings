@@ -381,6 +381,7 @@ expansion_map = {
         "etb_card_sleeves": "Mimikyu",
         "etb_rrp": "£49.99",
         "etb_quantity_of_packs": "9",
+        "blister_promo_card":"",
         "blister_rrp": "",
         "booster_box_rrp": "",
         "booster_box_rrp":""
@@ -431,6 +432,7 @@ expansion_map = {
         "etb_card_sleeves": "Okidogi, Munkidori, and Fezandipiti",
         "etb_rrp": "£49.99",
         "etb_quantity_of_packs": "9",
+        "blister_promo_card":"",
         "blister_rrp": "",
         "booster_box_rrp": "",
         "booster_box_rrp":""
@@ -479,6 +481,7 @@ expansion_map = {
         "etb_card_sleeves": "Eevee",
         "etb_rrp": "£49.99",
         "etb_quantity_of_packs": "9",
+        "blister_promo_card": "",
         "blister_rrp": "",
         "booster_box_rrp": "",
 
@@ -495,6 +498,7 @@ expansion_map = {
         "etb_card_sleeves": "Zoruark",
         "etb_rrp": "£49.99",
         "etb_quantity_of_packs": "9",
+        "blister_promo_card":"Yanmega or Scrafty",
         "blister_rrp": "13.99",
         "booster_box_rrp": "£154.44",
 
@@ -508,10 +512,14 @@ product_templates = {
         #Sword & Shield core expansion product templates
         "Core Expansion": {
             "Elite Trainer Box": """
-                <h2>{tagline}</h2>
-                <h3>RRP: {etb_rrp}</h3>
-                <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
-                <h2>What's inside?</h2>
+                <div class="product-description">
+                <h2 class="tagline">{tagline}</h2>
+
+                <p class="product-rrp"><strong>RRP:</strong> {etb_rrp}</p>
+
+                <p class="release-date"><strong>Release date:</strong> {release_day}/{release_month}/{release_year}</p>
+                <div class="product-contents">
+                <h3>What's inside?</h3>
                 <p>Each {era} {name} Elite Trainer Box contains:</p>
                 <ul>
                     <li>8 Pokémon TCG: {era} {name} booster packs</li>
@@ -525,19 +533,29 @@ product_templates = {
                     <li>A collector’s box to hold everything, with 4 dividers to keep it organised</li>
                     <li>A code card for Pokémon Trading Card Game Live</li>
                 </ul>
+                </div>
+                </div>
             """,
             "Booster Box": """
-                <h2>{tagline}</h2>
-                <h3>RRP: {booster_box_rrp}</h3>
-                <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
-                <h2>What's inside?</h2> 
-                <p>Each Booster Box contains 36 Pokémon TCG {era} {expansion} booster packs</p> 
+                <div class="product-description">
+                <h2 class="tagline">{tagline}</h2>
+                
+                <p class="product-rrp"><strong>RRP:</strong> {booster_box_rrp}</p>
+
+                <p class="release-date"><strong>Release date:</strong> {release_day}/{release_month}/{release_year}</p>
+                <div class="product-contents">
+                <p>Each Booster Box contains 36 Pokémon TCG {era} {expansion} booster packs</p>
+                </div> 
             """,
             "3 Pack Blister": """
-                <h2>{tagline}</h2>
-                <h3>RRP: {blister_rrp}</h3>
-                <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
-                <h2>Contents</h2>
+                <div class="product-description">
+                <h2 class="tagline">{tagline}</h2>
+
+                <p class="product-rrp"><strong>RRP:</strong> {blister_rrp}</p>
+                <p class="release-date"><strong>Release date:</strong> {release_day}/{release_month}/{release_year}</p>
+                
+                <div class="product-contents">
+                <h3>What's Inside?</h3>
                 <p> Each set contains:
                 <ul>
                     <li>3 {era} {era} booster packs.</li>
@@ -545,6 +563,8 @@ product_templates = {
                     <li>A code card for Pokémon TCG Live</li>
                 </ul>
                 </p>
+                </div>
+          
             """
 
         },
@@ -555,23 +575,29 @@ product_templates = {
         "Special Set": {
             # Sword & Shield special set product templates
             "Elite Trainer Box": """
-                    <h2>{tagline}</h2>
-                    <h3>RRP: {etb_rrp}</h3>
-                    <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
-                    <h2>What's included?</h2>
+                    <div class="product-description">
+                    <h2 class="tagline">{tagline}</h2>
+
+                    <p class="product-rrp"><strong>RRP:</strong> {etb_rrp}</p>
+
+                    <p class="release-date"><strong>Release date:</strong> {release_day}/{release_month}/{release_year}</p>
+                    <div class="product-contents">
+                    <h3>What's inside?</h3>
                     <p>Each {era} {expansion} Elite Trainer Box contains:</p>
                     <ul>               
                         <li>10 Pokémon TCG: {era} {expansion} booster packs</li>
                         <li>A promo card featuring {etb_promo_card}</li>
                         <li>65 card sleeves featuring {etb_card_sleeves}</li>
                         <li>45 Pokémon TCG Energy cards</li>
-                        <li>A player’s guide to the {era}: {expansion} expansion</li>
+                        <li>A player’s guide to the Pokémon TCG: {era}: {expansion} expansion</li>
                         <li>6 damage-counter dice</li>
                         <li>1 competition-legal coin-flip die</li>
                         <li>2 acrylic condition markers</li>
                         <li>A collector’s box to hold everything, with 4 dividers to keep it organised</li>
                         <li>A code card for Pokémon TCG Live</li>
                     </ul>
+                    </div>
+                    </div>
                 """
         }
     },
@@ -579,65 +605,83 @@ product_templates = {
         #Scarlet & Violet core expansion product templates
         "Core Expansion": {
             "Elite Trainer Box": """
-                <h2>{tagline}</h2>
-                <h3>RRP: {etb_rrp}</h3>
-                <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
-                <h2>What's included?</h2>
-                <p>Each {era} {expansion} Elite Trainer Box contains:</p>
-                <ul>               
-                    <li>9 Pokémon TCG: {era} {expansion} booster packs</li>
-                    <li>A promo card featuring {etb_promo_card}</li>
-                    <li>65 card sleeves featuring {etb_card_sleeves}</li>
-                    <li>45 Pokémon TCG Energy cards</li>
-                    <li>A player’s guide to the {era}: {expansion} expansion</li>
-                    <li>6 damage-counter dice</li>
-                    <li>1 competition-legal coin-flip die</li>
-                    <li>2 acrylic condition markers</li>
-                    <li>A collector’s box to hold everything, with 4 dividers to keep it organised</li>
-                    <li>A code card for Pokémon TCG Live</li>
-                </ul>
+<div class="product-description">
+<h2 class="tagline">{tagline}</h2>
+
+<p class="product-rrp"><strong>RRP:</strong> {etb_rrp}</p>
+
+<p class="release-date"><strong>Release date:</strong> {release_day}/{release_month}/{release_year}</p>
+<div class="product-contents">
+<h3>What's inside?</h3>
+<p>Each Pokémon TCG {era} {expansion} Elite Trainer Box contains:</p>
+<ul>               
+<li>9 Pokémon TCG: {era} {expansion} booster packs</li>
+<li>A promo card featuring {etb_promo_card}</li>
+<li>65 card sleeves featuring {etb_card_sleeves}</li>
+<li>45 Pokémon TCG Energy cards</li>
+<li>A player’s guide to the Pokémon TCG {era} {expansion} expansion</li>
+<li>6 damage-counter dice</li>
+<li>1 competition-legal coin-flip die</li>
+<li>2 acrylic condition markers</li>
+<li>A collector’s box to hold everything, with 4 dividers to keep it organised</li>
+<li>A code card for Pokémon TCG Live</li>
+</ul>
+</div>
+</div>
             """,
             "Booster Box": """
-                <h2>{tagline}</h2>
-                <h3>RRP: {booster_box_rrp}</h3>
-                <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
-                <h2>What's inside?</h2> 
-                <p>Each Booster Box contains 36 Pokémon TCG {era} {expansion} booster packs</p> 
+<div class="product-description">
+<h2 class="tagline">{tagline}</h2>
+                
+<p class="product-rrp"><strong>RRP:</strong> {booster_box_rrp}</p>
+
+<p class="release-date"><strong>Release date:</strong> {release_day}/{release_month}/{release_year}</p>
+<div class="product-contents">
+<p>Each Booster Box contains 36 Pokémon TCG {era} {expansion} booster packs</p>
+</div>
             """,
             "3-pack Blister": """
-                <h2>{tagline}</h2>
-                <h3>RRP: {blister_rrp}</h3>
-                <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
-                <h2>Contents</h2>
-                <p> Each set contains:
-                <ul>
-                    <li>3 {era} {era} booster packs.</li>
-                    <li>A foil promo card featuring {blister_promo_card}</li>
-                    <li>A code card for Pokémon TCG Live</li>
-                </ul>
-                </p>
+<div class="product-description">
+<h2 class="tagline">{tagline}</h2>
+
+<p class="product-rrp"><strong>RRP:</strong> {blister_rrp}</p>
+<p class="release-date"><strong>Release date:</strong> {release_day}/{release_month}/{release_year}</p>
+                
+<div class="product-contents">
+<h3>What's Inside?</h3>
+<ul>
+<li>3 Pokémon TCG {era} {expansion} booster packs</li>
+<li>A foil promo card featuring {blister_promo_card}</li>
+<li>A code card for Pokémon TCG Live</li>
+</ul>
             """
         },
         "Special Set": {
             # Scarlet & Violet special set product templates
-                "Elite Trainer Box": """
-                    <h2>{tagline}</h2>
-                    <h3>RRP: {etb_rrp}</h3>
-                    <h3>Release date: {release_day}/{release_month}/{release_year}</h3>
-                    <h2>What's included?</h2>
-                    <p>Each {era} {expansion} Elite Trainer Box contains:</p>
-                    <ul>               
-                        <li>9 Pokémon TCG: {era} {expansion} booster packs</li>
-                        <li>A promo card featuring {etb_promo_card}</li>
-                        <li>65 card sleeves featuring {etb_card_sleeves}</li>
-                        <li>45 Pokémon TCG Energy cards</li>
-                        <li>A player’s guide to the {era}: {expansion} expansion</li>
-                        <li>6 damage-counter dice</li>
-                        <li>1 competition-legal coin-flip die</li>
-                        <li>2 acrylic condition markers</li>
-                        <li>A collector’s box to hold everything, with 4 dividers to keep it organised</li>
-                        <li>A code card for Pokémon TCG Live</li>
-                    </ul>
+"Elite Trainer Box": """
+<div class="product-description">
+<h2 class="tagline">{tagline}</h2>
+
+<p class="product-rrp"><strong>RRP:</strong> {etb_rrp}</p>
+
+<p class="release-date"><strong>Release date:</strong> {release_day}/{release_month}/{release_year}</p>
+<div class="product-contents">
+<h3>What's inside?</h3>
+<p>Each Pokémon TCG: {era} {expansion} Elite Trainer Box contains:</p>
+<ul>               
+<li>9 Pokémon TCG: {era} {expansion} booster packs</li>
+<li>A promo card featuring {etb_promo_card}</li>
+<li>65 card sleeves featuring {etb_card_sleeves}</li>
+<li>45 Pokémon TCG Energy cards</li>
+<li>A player’s guide to the Pokémon TCG: {era}: {expansion} expansion</li>
+<li>6 damage-counter dice</li>
+<li>1 competition-legal coin-flip die</li>
+<li>2 acrylic condition markers</li>
+<li>A collector’s box to hold everything, with 4 dividers to keep it organised</li>
+<li>A code card for Pokémon TCG Live</li>
+</ul>
+</div>
+</div>
                 """
         }
     }

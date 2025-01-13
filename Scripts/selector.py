@@ -109,32 +109,39 @@ def generate_product_description(era, expansion_type, product, expansion):
 
 
 def main():
-        era = select_tcg_era()
-        print(era)
-        if not era:
-             print("Invalid option.")
-             return 
+        while True:
+          era = select_tcg_era()
+          print(era)
+          if not era:
+               print("Invalid option.")
+               return 
         
-        expansion_type = select_expansion_type()
-        print(expansion_type)
-        if not expansion_type:
+          expansion_type = select_expansion_type()
+          print(expansion_type)
+          if not expansion_type:
              print("Invalid expansion type selected.")
              return
         
-        product = select_product(expansion_type)
-        print(product)
-        if not product:
+          product = select_product(expansion_type)
+          print(product)
+          if not product:
              print("Invalid product.")
      
-        expansion = select_expansion(era, expansion_type)
-        print(expansion)
-        if not expansion:
+          expansion = select_expansion(era, expansion_type)
+          print(expansion)
+          if not expansion:
              print("Invalid expansion")
         
-        description = generate_product_description (era, expansion_type, product, expansion)
-        if description:
-          print("\nGenerated Product Description: ")
-          print(description)
+          description = generate_product_description (era, expansion_type, product, expansion)
+          if description:
+               print("\nGenerated Product Description: ")
+               print(description)
+          
+          #Ask user if they want to generate another description
+          repeat = input("\nWould you like to generate another description? (yes/no): ").strip().lower()
+          if repeat not in ("yes", "y"):
+            print("Exiting the process. Thank you!")
+            break  # Exit the loop if the user chooses "no" 
 
 
 main()
